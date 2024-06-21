@@ -59,6 +59,7 @@ make all_xc7
 # Build all ice40 demo bitstreams
 make all_ice40
 ```
+Note: One doesn't need to build the architectures. Once the user builds all the tools(VPR/Yosys/prjxraytools), one can use the prebuilt architecture descriptions. This is one specific use of arch-defs-repository. 
 
 Specific bitstreams can be built by specifying their target name, followed by a suffix specifying the desired output.
 For example, the LUT-RAM test for the RAM64X1D primative is called `dram_test_64x1d`.
